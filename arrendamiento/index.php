@@ -59,7 +59,7 @@
 float: left;
 margin: 5px 7px 1px;
 width: 706px;
-padding: 7px;
+padding: 3px;
 	}
 	
 	.str-col{
@@ -104,21 +104,20 @@ width: 100%;
 
 .content-invoice {
 
-	border: 1px solid #EEEEEE;
-    float: left;
-    height: 474px;
-    margin: 2px;
-    overflow-y: auto;
-    padding: 0;
-    width: 745px;
+border: 1px solid #EEEEEE;
+float: left;
+height: 485px;
+margin: 0px;
+overflow-y: auto;
+padding: 0;
+width: 744px;
 }
 table {
 
- border: 1px solid black;
-    
-    font-size: 12px;
-    margin: 2px 7px 7px;
-    width: 97%;
+border: 1px solid black;
+font-size: 10px;
+margin: 1px 6px -2px;
+width: 715px;
 
 }
 table th {
@@ -251,7 +250,7 @@ padding-top: 5px;
 
 	<?php
 
-  				for($invoice=1;$invoice<=150;$invoice++){
+  				for($invoice=1100;$invoice<=1400;$invoice++){
   	 ?>
 
 
@@ -261,7 +260,7 @@ padding-top: 5px;
 
 
 
-<table class="str-col border-none "   cellpadding="0">
+<table class="str-col border-none "   cellpadding="0" style="margin-left: -25px;">
    
            <thead class="border-none">
                 <tr>
@@ -313,7 +312,7 @@ padding-top: 5px;
  
 
 
-        	<div class="str-col lft-position " style="text-align: center;margin-left: -167px;width: 98px;">
+        	<div class="str-col lft-position " style="text-align: center;margin-left: -193px;width: 98px;">
 	
 		<div class="border-down txt-note"> FECHA</div> 
 		
@@ -369,7 +368,7 @@ padding-top: 5px;
 					echo "0";
 			}
 
-		 echo $invoice; ?> </span></div>
+		 echo $invoice+ 2; ?> </span></div>
 
 		</span></div> 
 		
@@ -431,12 +430,12 @@ padding-top: 5px;
  
 			<td class="no-border-left" 	style="border:0;"  >  </td> 
 			
-			 <td  style="border-bottom:0;"   > RECIBI DE:  </td>  
+			 <td  class="no-border-left " style="border-bottom:0;"   > RECIBI DE:  </td>  
 
 			 <td  style="border-bottom:0;"  class="no-border-left"  >  </td>  
 
 
-			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+			 <td  class="border-right"  style="border-bottom:0"  > No. DE CUENTA PREDIAL   </td>
 	 
 		 </tr>
 	  
@@ -446,12 +445,12 @@ padding-top: 5px;
  
 			<td class="no-border-left" 	style="border:0;"  >  </td> 
 			
-			 <td   class="border-down"  >   </td>  
+			 <td   class="border-down no-border-left"  >   </td>  
 
 			 <td    class="border-down no-border-left"    >  </td>  
 
 
-			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+			 <td  class="border-right"     >  </td>
 	 
 		 </tr>
 
@@ -460,12 +459,12 @@ padding-top: 5px;
  
 			<td class="no-border-left" 	style="border:0;"  >  </td> 
 			
-			 <td  style="border-bottom:0;"   >  DOMICILIO </td>  
+			 <td  style="border-bottom:0;"   class=" no-border-left"  >  DOMICILIO </td>  
 
 			 <td  style="border-bottom:0;"   >  R.F.C </td>  
 
 
-			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+			 <td  class="border-right"  style="border-bottom:0"  >  RENTA $    </td>
 	 
 		 </tr>
 <!-- ---------------------------------------------------------------------- -->
@@ -473,12 +472,12 @@ padding-top: 5px;
  
 			<td class="no-border-left" 	style="border:0;"  >  </td> 
 			
-			 <td  class="border-down"   >    </td>  
+			 <td  class="border-down no-border-left"   >    </td>  
 
 			 <td   class="border-down"    >  </td>  
 
 
-			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+			 <td  class="border-right"     >    </td>
 	 
 		 </tr>
 
@@ -487,12 +486,12 @@ padding-top: 5px;
  
 			<td class="no-border-left" 	style="border:0;"  >  </td> 
 			
-			 <td  style="border-bottom:0;"   >  POBLACION </td>  
+			 <td class=" no-border-left "  style="border-bottom:0;"   >  POBLACION </td>  
 
 			 <td  style="border-bottom:1px;"  class="no-border-left"  >  ENTIDAD FEDERATIVA </td>  
 
 
-			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+			 <td  class="border-right"  style="border-bottom:0"  >   16% <br>I.V.A $  </td>
 	 
 		 </tr>
 <!-- ---------------------------------------------------------------------- -->
@@ -500,12 +499,12 @@ padding-top: 5px;
  
 			<td class="no-border-left" 	style="border:0;"  >  </td> 
 			
-			 <td  class="border-down"   >    </td>  
+			 <td  class="border-down no-border-left"   >    </td>  
 
 			 <td    class="no-border-left border-down"   >  </td>  
 
 
-			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+			 <td  class="border-right"    >    </td>
 	 
 		 </tr>
 
@@ -514,12 +513,12 @@ padding-top: 5px;
  
 			<td class="no-border-left" 	style="border:0;"  >  </td> 
 			
-			 <td  style="border-bottom:0;"   >  CONCEPTO </td>  
+			 <td  style="border-bottom:0;"  class="no-border-left" >  CONCEPTO </td>  
 
 			 <td  style="border-bottom:0;"  class="no-border-left"  >  </td>  
 
 
-			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+			 <td  class="border-right"  style="border-bottom:0"  >  I.S.R <br> RET $   </td>
 	 
 		 </tr>
 <!-- ---------------------------------------------------------------------- -->
@@ -527,12 +526,12 @@ padding-top: 5px;
  
 			<td class="no-border-left" 	style="border:0;"  >  </td> 
 			
-			 <td style="border-bottom:0;"    >    </td>  
+			 <td style="border-bottom:0;"  class="no-border-left"  >    </td>  
 
 			 <td  style="border-bottom:0;"  class="no-border-left"   >  </td>  
 
 
-			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+			 <td  class="border-right"  style="border-bottom:0"  >  I.V.A <br> RET. $  </td>
 	 
 		 </tr>
 
@@ -540,27 +539,27 @@ padding-top: 5px;
 <!-- ---------------------------------------------------------------------- -->
 	  		  <tr>
  
-			<td class="no-border-left" 	style="border:0;"  >  </td> 
+			<td class="no-border-left " 	style="border:0;"  >  </td> 
 			
-			 <td  class="border-down"    >    </td>  
+			 <td  class="border-down no-border-left "     >    </td>  
 
-			 <td    class="no-border-left"  class="no-border-left"    >  </td>  
+			 <td    class="no-border-left"  class="no-border-left "    >  </td>  
 
 
-			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+			 <td  class="border-right"     >    </td>
 	 
 		 </tr>
 <!-- ---------------------------------------------------------------------- -->
 	  		  <tr>
  
-			<td class="no-border-left" 	style="border:0;"  > </td> 
+			<td class="no-border-left " 	style="border:0;"  > </td> 
 			
-			 <td style="border-bottom:0;"    >   RENTA DEL MES Y AÑO  </td>  
+			 <td style="border-bottom:0;" class="no-border-left"    >   RENTA DEL MES Y AÑO  </td>  
 
 			 <td  style="border-bottom:0;" class="no-border-left"  >  </td>  
 
 
-			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+			 <td  class="border-right"  style="border-bottom:0"  >  TOTAL   </td>
 	 
 		 </tr>
 
@@ -569,7 +568,7 @@ padding-top: 5px;
  
 			<td class="no-border-left  border-down" 	 > </td> 
 			
-			 <td   class="border-down"   >    </td>  
+			 <td   class="border-down no-border-left"   >    </td>  
 
 			 <td   class="border-down no-border-left"    >  </td>  
 
@@ -583,30 +582,76 @@ padding-top: 5px;
  
 			<td class="no-border-left" 	style="border:0;width:180px" > CANTIDAD CON LETRAS </td> 
 			
-			 <td style="border-bottom:0;"    >     </td>  
+			 <td style="border-bottom:0;"  class=" no-border-left"  >     </td>  
 
 			 <td  style="border-bottom:0;" class="no-border-left"  >  </td>  
 
 
-			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+			 <td  class="border-right"  style="border-bottom:0"  >  FIRMA  </td>
 	 
 		 </tr>
+
 
 
 <!-- ---------------------------------------------------------------------- -->
 	  		  <tr>
  
-			<td class="no-border-left" 	style="border:0;width:180px" >  </td> 
+			<td class="no-border-left" 	style="width:180px" >  </td> 
 			
-			 <td style="border-bottom:0;"    >     </td>  
+			 <td   class=" no-border-left"  >     </td>  
 
-			 <td  style="border-bottom:0;" class="no-border-left"  >  </td>  
+			 <td   class="no-border-left"  >  </td>  
+
+
+			 <td  class="border-right"     >    </td>
+	 
+		 </tr>
+ 
+	  		  <tr>
+ 
+			<td class="no-border-left" 	style="border:0;width:210px" > 
+
+
+<span  style="font-size: 7px;
+text-align: center;
+float: left;
+padding-left: 3px;">
+
+
+EFECTOS DISCALES AL PAGO  PAGO EN UNA SOLA EXHIBICION <br>  LA REPRODUCCION 
+				APOCRIFA DE ESTE COMPROBANTE CONSTITUYE UN DELITO <br> EN LOS TERMINOS DE LAS DISPOSICIONES FISCALES
+</span>
+
+			 </td> 
+			
+			 <td style="border-bottom:0;"  class=" no-border-left"  >  
+
+
+
+			  </td>  
+
+			 <td  style="border-bottom:0; width:257px" class="no-border-left"   >  
+
+
+<span  style="font-size: 7px;
+text-align: center;
+float: left;
+padding-left: 3px;"> ESTE COMPROBANTE TENDRA UNA VIGENCIA DE DOS AÑOS <br>   
+				CONTADOS A PARTIR DE LA FECHA DE APROBACION DE LA ASIGNACION <br>  DE LOS FOLIOS LA CUAL ES 30/03/2009 DOLIOS DEL 1101 AL 1400 <br>
+				NUMERO DE LA APROBACION DEL SICOFI:23143615
+</span>
+
+
+
+
+			 </td>  
 
 
 			 <td  class="border-right"  style="border-bottom:0"  >    </td>
 	 
 		 </tr>
 
+	 
 
 	      </tbody>
             </table>
