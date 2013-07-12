@@ -8,17 +8,7 @@
 	
 	<style>
 
-
-@media print { /* Todas las reglas Css */ 
-
-	.logo{
-
-	font-size: 14px;
-    font-weight: bold;
-
-	}
-}  
-
+ 
 	.col-data > ul {
     margin: 0;
     padding: 0;
@@ -66,18 +56,16 @@
 	}
 
 	.str-head{
-
-
-
-		float: left;
-		margin:5px 5px 1px;
-		padding: 7px;
+float: left;
+margin: 5px 7px 1px;
+width: 706px;
+padding: 7px;
 	}
 	
 	.str-col{
 
-		border: 1px solid blue;
-		border-radius: 5px;
+		border: 1px solid black;
+	 
 
 	}
 
@@ -91,7 +79,7 @@
 
 	.border-down{
 
-		border-bottom: 1px solid blue;
+		border-bottom: 1px solid black;
 	}
 
 	.data-width{
@@ -126,16 +114,16 @@ width: 100%;
 }
 table {
 
- border: 1px solid blue;
-    border-radius: 5px 5px 5px 5px;
+ border: 1px solid black;
+    
     font-size: 12px;
     margin: 2px 7px 7px;
     width: 97%;
 
 }
 table th {
-    border-bottom: 1px solid blue;
-    border-left: 1px solid blue;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
 }
 
 
@@ -180,8 +168,8 @@ table.importe th {
 }
 
  td  { 
-border-bottom: 1px solid blue;
-    border-left: 1px solid blue;
+border-bottom: 1px solid black;
+    border-left: 1px solid black;
     height: 17px;
 
 }
@@ -247,11 +235,15 @@ padding: 0;
 
 .numNota .date li {
 float: left;
-border-right: 1px solid blue;
+border-right: 1px solid black;
 content: " ";
+text-align: center;
+font-size: 8px;
 display: inline-block;
-padding-left: 30px;
+padding-left: 5px;
+padding-right: 9px;
 height: 15px;
+padding-top: 5px;
 }
 
 	</style>
@@ -275,34 +267,90 @@ height: 15px;
                 <tr>
                   
                   <th class="border-none" >
-
-<div class="logo lft-position">ISEL</div>
+ 
 
 
                   </th>
-                  <th class="border-none" >
+                  <th style="border: 1px solid black; text-align: center; float: left; padding-bottom: 6px; padding-top: 6px; width: 510px; margin-left: 54px;">
 
-	<div class="col-data data-width">
-			
-					<ul>
-						<li> <strong class="toUpper"> Compra y Venta</strong></li>
-						<li>de Controles Remotos</li>
-						<li class=" letter-small toUpper">javier ernesto oaxaca cuevas </li>
-					</ul>		
-				 
-
-		</div>
-
+ 			RECIBO DE ARRENDAMIENTO
 
                   </th>
         <th class="border-none">
 
 
-        	<div class="str-col lft-position ">
+     
+	</th>
+                </tr>
+              </thead>
+
+              <tbody>
+              	<tr>
+              		<td colspan="2"  class="border-none">
+
+              			<div class="toUpper letter-small "> 
+
+
+						<ul  style="text-align:center;margin: 0;font-size:11px;padding: 0;margin-left: -207px;">
+							<li><span style="font-weight:bold;font-size:18px;"> MARÍA DE LOURDES PINEDA DIEGO  </span> </li>
+							<li><span>R.F.C PIDL600209BI0</span></li>
+							<li><span>Calle 56 No. 589 x 69 y 71 Col. Centro </span></li>
+							<li><span>Cp.P 97000 Mérida, Yuc., Méx.</span></li>
+						</ul>
+              				
+
+
+
+              			</div>
+
+
+
+              		</td>
+                
+              		<td class="border-none" >
+
+					
+ 
+
+
+        	<div class="str-col lft-position " style="text-align: center;margin-left: -167px;width: 98px;">
 	
-		<div class="border-down txt-note">NOTA DE VENTA </div> 
+		<div class="border-down txt-note"> FECHA</div> 
 		
-		<div class="numNota">N° <span><?php 
+		<div class="numNota">
+				
+				<ul class="date" >
+					<li style="border-bottom:1px solid black;"> DIA </li>
+					<li style="border-bottom:1px solid black;"> MES </li>
+					<li style="border-right:0; border-bottom:1px solid black;" > AÑO </li>
+				</ul>
+
+
+		<ul class="date" >
+					<li style="height: 36px; width: 15px;" class="numNota date"> </li>
+					<li style="  height: 36px; width: 16px;"  class="numNota date" > </li>
+					<li style="border-right:0; height: 36px;" class="numNota date" > </li>
+				</ul>
+
+ 
+	<div>
+
+	</div>
+</div>
+
+</div>
+
+
+
+
+
+
+        	<div  style="text-align: center;width: 98px;float:left;margin-left:15px">
+	
+		<div class="  txt-note" style="font-weight:bold;font-size:18px;"> <span>
+			
+
+	<div class="numNota">N° <span><?php 
 
 			if($invoice<=9){
 
@@ -322,34 +370,15 @@ height: 15px;
 			}
 
 		 echo $invoice; ?> </span></div>
-	
 
-	<div>
-
-	</th>
-                </tr>
-              </thead>
-
-              <tbody>
-              	<tr>
-              		<td colspan="2"  class="border-none"><div class="toUpper letter-small ">R.f.c oacj 600927 3t8 c.u.r.p. oacj600927hplxvv09  </div></td>
-                
-              		<td class="border-none" >
-
-					
- 
-
-
-        	<div class="str-col lft-position " style="text-align: center;width: 98px;">
-	
-		<div class="border-down txt-note"> FECHA</div> 
+		</span></div> 
 		
 		<div class="numNota">
 				
 				<ul class="date" >
-					<li> </li>
-					<li> </li>
-					<li style="border-right:0;" > </li>
+			 
+					<li style="border-right:0;font-family: helvetica;width: 220PX;font-size: 7PX;text-align: center;margin-left: -95px;" > 
+						IMPUESTO RETENIDO DE CONFORMIDAD <br>	CON LA LEY DEL IMPUESTO AL VALOR AGREGADO </li>
 				</ul>
 
  
@@ -358,11 +387,13 @@ height: 15px;
 	</div>
 </div>
 
-
+</div>
 
 
               		</td>
               	</tr>
+
+				
 
               </tbody>
           </table>
@@ -384,72 +415,198 @@ height: 15px;
 
 <section class="lft-position width-100 table" >
 	<ul>
-		<li class="toUpper center-string">Venta al publico en general</li>
-
-
-		<li>
+	 
 				<!-- TABLA-->
 
 <table class="importe"   cellpadding="2" cellspacing="0">
    
            <thead>
-                <tr>
-                  
-                  <th>CANT.</th>
-                  <th>DESCRIPCION</th>
-                  <th>PRECIO UNIT.</th>
-                  <th>IMPORTE</th>
-                </tr>
+             
               </thead>
               <tbody>
   
-  			<?php
-
-  				for($i=1;$i<12;$i++){
-  			?>
+  		 
 		 
 		  <tr>
  
-			<td class="no-border-left" <?php  if($i==11){ ?>   
-				style="border-bottom:0;" <?php } ?>   >
-
- 
-			 
-			</td> 
+			<td class="no-border-left" 	style="border:0;"  >  </td> 
 			
-			 <td <?php  if($i==11){ ?>   
-				style="border-bottom:0;" <?php } ?> >   </td>  
+			 <td  style="border-bottom:0;"   > RECIBI DE:  </td>  
 
-			 <td <?php  if($i==11){ ?>   
-				style="border-bottom:0;" <?php } ?> >  </td>  
+			 <td  style="border-bottom:0;"  class="no-border-left"  >  </td>  
 
 
-			 <td 
-
-class="border-right"
-				 
-
-
-		 		 <?php  if($i==11){ ?> 
-			 
-
-
-			 	 style="border-bottom:0"
-			 	 
-			 	 <?php 
-
-			 	} 
-
-			 	 ?>  >    </td>
+			 <td  class="border-right"  style="border-bottom:0"  >    </td>
 	 
 		 </tr>
-	 
-		 <?php
+	  
 
-  				}
-  			?>
+<!-- ---------------------------------------------------------------------- -->
+	  		  <tr>
+ 
+			<td class="no-border-left" 	style="border:0;"  >  </td> 
+			
+			 <td   class="border-down"  >   </td>  
 
+			 <td    class="border-down no-border-left"    >  </td>  
+
+
+			 <td  class="border-right"  style="border-bottom:0"  >    </td>
 	 
+		 </tr>
+
+<!-- ---------------------------------------------------------------------- -->
+	  		  <tr>
+ 
+			<td class="no-border-left" 	style="border:0;"  >  </td> 
+			
+			 <td  style="border-bottom:0;"   >  DOMICILIO </td>  
+
+			 <td  style="border-bottom:0;"   >  R.F.C </td>  
+
+
+			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+	 
+		 </tr>
+<!-- ---------------------------------------------------------------------- -->
+	  		  <tr>
+ 
+			<td class="no-border-left" 	style="border:0;"  >  </td> 
+			
+			 <td  class="border-down"   >    </td>  
+
+			 <td   class="border-down"    >  </td>  
+
+
+			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+	 
+		 </tr>
+
+	 <!-- ---------------------------------------------------------------------- -->
+	  		  <tr>
+ 
+			<td class="no-border-left" 	style="border:0;"  >  </td> 
+			
+			 <td  style="border-bottom:0;"   >  POBLACION </td>  
+
+			 <td  style="border-bottom:1px;"  class="no-border-left"  >  ENTIDAD FEDERATIVA </td>  
+
+
+			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+	 
+		 </tr>
+<!-- ---------------------------------------------------------------------- -->
+	  		  <tr>
+ 
+			<td class="no-border-left" 	style="border:0;"  >  </td> 
+			
+			 <td  class="border-down"   >    </td>  
+
+			 <td    class="no-border-left border-down"   >  </td>  
+
+
+			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+	 
+		 </tr>
+
+<!-- ---------------------------------------------------------------------- -->
+	  		  <tr>
+ 
+			<td class="no-border-left" 	style="border:0;"  >  </td> 
+			
+			 <td  style="border-bottom:0;"   >  CONCEPTO </td>  
+
+			 <td  style="border-bottom:0;"  class="no-border-left"  >  </td>  
+
+
+			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+	 
+		 </tr>
+<!-- ---------------------------------------------------------------------- -->
+	  		  <tr>
+ 
+			<td class="no-border-left" 	style="border:0;"  >  </td> 
+			
+			 <td style="border-bottom:0;"    >    </td>  
+
+			 <td  style="border-bottom:0;"  class="no-border-left"   >  </td>  
+
+
+			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+	 
+		 </tr>
+
+
+<!-- ---------------------------------------------------------------------- -->
+	  		  <tr>
+ 
+			<td class="no-border-left" 	style="border:0;"  >  </td> 
+			
+			 <td  class="border-down"    >    </td>  
+
+			 <td    class="no-border-left"  class="no-border-left"    >  </td>  
+
+
+			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+	 
+		 </tr>
+<!-- ---------------------------------------------------------------------- -->
+	  		  <tr>
+ 
+			<td class="no-border-left" 	style="border:0;"  > </td> 
+			
+			 <td style="border-bottom:0;"    >   RENTA DEL MES Y AÑO  </td>  
+
+			 <td  style="border-bottom:0;" class="no-border-left"  >  </td>  
+
+
+			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+	 
+		 </tr>
+
+<!-- ---------------------------------------------------------------------- -->
+	  		  <tr>
+ 
+			<td class="no-border-left  border-down" 	 > </td> 
+			
+			 <td   class="border-down"   >    </td>  
+
+			 <td   class="border-down no-border-left"    >  </td>  
+
+
+			 <td  class="border-right border-down"   >    </td>
+	 
+		 </tr>
+
+<!-- ---------------------------------------------------------------------- -->
+	  		  <tr>
+ 
+			<td class="no-border-left" 	style="border:0;width:180px" > CANTIDAD CON LETRAS </td> 
+			
+			 <td style="border-bottom:0;"    >     </td>  
+
+			 <td  style="border-bottom:0;" class="no-border-left"  >  </td>  
+
+
+			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+	 
+		 </tr>
+
+
+<!-- ---------------------------------------------------------------------- -->
+	  		  <tr>
+ 
+			<td class="no-border-left" 	style="border:0;width:180px" >  </td> 
+			
+			 <td style="border-bottom:0;"    >     </td>  
+
+			 <td  style="border-bottom:0;" class="no-border-left"  >  </td>  
+
+
+			 <td  class="border-right"  style="border-bottom:0"  >    </td>
+	 
+		 </tr>
+
 
 	      </tbody>
             </table>
@@ -469,19 +626,9 @@ class="border-right"
 
 </li>
 
+ 
 
-<li > <section class="str-col lft-position width-100 " style="height:29px;">
-	
-		<span class="import-letter smallest" style="font-size:10px">Importe con Letra</span>
-
-</section> </li>
-
-<li style="float:right">
-	
-	<div class="total-str">TOTAL</div>
-	<div    class="str-col total"  >    </div>
-
-</li>
+ 
 
 </ul>
 
