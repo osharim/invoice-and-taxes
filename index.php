@@ -35,7 +35,7 @@
 
 .letter-small{
 
-	 font-size: 9px;
+	 font-size: 8px;
 }
 
 .str-head.str-col > ul {
@@ -115,7 +115,7 @@ width: 100%;
 
 
 .content-invoice {
-   border: 1px solid #CCCCCC;
+   border: 1px solid #eee;
     float: left;
     margin: 2px;
     overflow-y: auto;
@@ -237,6 +237,23 @@ border-bottom: 1px solid blue;
 	padding-right: 13px;
 
 }
+
+.numNota .date {
+float: left;
+padding: 0;
+}
+
+ 
+
+.numNota .date li {
+float: left;
+border-right: 1px solid blue;
+content: " ";
+display: inline-block;
+padding-left: 30px;
+height: 15px;
+}
+
 	</style>
 
 
@@ -313,22 +330,45 @@ border-bottom: 1px solid blue;
                 </tr>
               </thead>
 
+              <tbody>
+              	<tr>
+              		<td colspan="2"  class="border-none"><div class="toUpper letter-small ">R.f.c oacj 600927 3t8 c.u.r.p. oacj600927hplxvv09  </div></td>
+                
+              		<td class="border-none" >
+
+					
+ 
+
+
+        	<div class="str-col lft-position " style="text-align: center;width: 98px;">
+	
+		<div class="border-down txt-note"> FECHA</div> 
+		
+		<div class="numNota">
+				
+				<ul class="date" >
+					<li> </li>
+					<li> </li>
+					<li style="border-right:0;" > </li>
+				</ul>
+
+ 
+	<div>
+
+	</div>
+</div>
+
+
+
+
+              		</td>
+              	</tr>
+
+              </tbody>
           </table>
 
 
- <ul>
- 	<li class="lft-position">
  
-	<div class="toUpper letter-small ">R.f.c oacj 600927 3t8 c.u.r.p. oacj600927hplxvv09 
-	</div>
-
- 
-</li>
-
-  
-
- </ul>
-
 
 </section>
 
