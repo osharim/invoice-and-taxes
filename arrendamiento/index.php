@@ -115,15 +115,15 @@ width: 100%;
 
 
 .content-invoice {
-   border: 1px solid #eee;
+
+	border: 1px solid #EEEEEE;
     float: left;
+    height: 474px;
     margin: 2px;
     overflow-y: auto;
     padding: 0;
-    width: 365px;
-    height:474px;
+    width: 745px;
 }
-
 table {
 
  border: 1px solid blue;
