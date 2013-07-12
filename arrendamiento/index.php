@@ -270,7 +270,7 @@ padding-top: 5px;
 
 
                   </th>
-                  <th style="border: 1px solid black; text-align: center; float: left; padding-bottom: 6px; padding-top: 6px; width: 510px; margin-left: 54px;">
+                  <th style="border: 1px solid black; text-align: center; float: left; padding-bottom: 6px; padding-top: 6px; width: 510px; margin-left: 54px;font-size:14px;">
 
  			RECIBO DE ARRENDAMIENTO
 
